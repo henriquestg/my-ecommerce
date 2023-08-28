@@ -1,0 +1,13 @@
+.socialMidia {
+  display: flex;
+  padding: 0 4rem;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+
+  a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
