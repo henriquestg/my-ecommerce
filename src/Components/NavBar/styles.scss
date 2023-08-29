@@ -21,8 +21,6 @@
 
   img {
     display: flex;
-    width: 10.5rem;
-    height: 2.5rem;
     padding: 0.5rem;
     gap: 0.65613rem;
   }
@@ -44,7 +42,49 @@
     border: 1px solid  var(--black);
 
     margin-left: 2rem;
-    
+    margin-right: 2rem;
   }
+}
+
+.marketplace {
+  display: flex;
+
+  button {
+    width: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    margin-right: 1.4rem;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: var(--bg-button);
+    }
+}
+}
+
+.notification {
+  display: flex;
+
+  button {
+    display: flex;
+    width: 6rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: var(--bg-button);
+    }
+}
+
 }
 }

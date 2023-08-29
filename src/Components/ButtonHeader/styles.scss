@@ -11,9 +11,10 @@
     align-items: center;
     justify-content: center;
     gap: 0.6rem;
+    cursor: pointer;
  
     &:hover {
-      background-color: rgba(235, 235, 235, 0.26);
+      background-color: var(--bg-button);
     }
   }
 }
