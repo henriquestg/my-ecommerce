@@ -1,0 +1,49 @@
+.container-about {
+  display: flex;
+  padding: 14rem 4rem;
+
+
+  .container-list {
+    flex-direction: column;
+    margin-right: 5rem;
+  h1 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 1.5rem;
+    }
+
+  p {
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+
+  .list-item {
+    display: flex; 
+    margin-top: 2rem;
+
+  }
+  .item {
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+
+    h1 { 
+      font-size: 3rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 120%;
+    }
+
+    p {
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%
+    }
+  }
+  }
+}
