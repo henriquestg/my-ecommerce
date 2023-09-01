@@ -20,7 +20,7 @@ export function HeaderShowcase() {
             beds.
           </p>
           <div className="btn">
-            <Button text="Shop Now" />
+            <Button text="Shop Now" isBlack={true} />
             <Button text="Learn More" />
           </div>
         </div>
