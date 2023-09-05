@@ -8,10 +8,25 @@
   .info-store {
     flex-direction: column;
     width: 100%;
+    
+    h1 {
+      margin-bottom: 1.5rem;
+      font-size: 3rem;
+      font-weight: 700;
+      line-height: 120%;
+    }
+
+    p {
+      font-size: 1.125rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%
+    }
 
     Button {
       margin-top: 1.5rem;
     }
+
   }
 
   .cotainer-list-aboutus {

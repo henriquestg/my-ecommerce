@@ -1,0 +1,25 @@
+.container-featured {
+  display: flex;
+  flex-direction: column;
+  padding: 7rem 4rem;
+
+  .title-featured {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    margin-bottom: 5rem;
+    
+    Button {
+      width: 6.5rem;
+      height: 3rem;
+    }
+  }
+  .product-list {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+}
