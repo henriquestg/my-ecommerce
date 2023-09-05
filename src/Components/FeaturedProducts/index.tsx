@@ -2,12 +2,17 @@ import { Button } from "../Button";
 import { ProductList } from "../ProductList";
 import "./styles.scss";
 
-export function FeaturedProducts() {
+interface FeaturedProps {
+  title: string;
+  text: string;
+}
+
+export function FeaturedProducts({ title, text }: FeaturedProps) {
   return (
     <div className="container-featured">
-      <h1>Featured Products</h1>
+      <h1>{title}</h1>
       <div className="title-featured">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+        <p>{text}</p>
         <Button text="View all" />
       </div>
       <div className="product-list">
