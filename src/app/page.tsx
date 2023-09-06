@@ -11,6 +11,7 @@ import { FeaturedProducts } from "@/Components/FeaturedProducts";
 import { Tagline } from "@/Components/Tagline";
 import { Button } from "@/Components/Button";
 import Image from "next/image";
+import { Contact } from "@/Components/Contact";
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
           title="Popular Products"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
         />
+        <Contact />
       </section>
     </main>
   );
