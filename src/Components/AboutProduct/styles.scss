@@ -2,6 +2,10 @@
   display: flex;
   padding: 14rem 4rem;
 
+  @media (max-width: 850px) {
+    flex-direction: column;
+}
+
 
   .container-list {
     flex-direction: column;
@@ -30,6 +34,10 @@
     align-items: center;
     justify-content: flex-start;
     width: 100%;
+
+    @media (max-width: 850px) {
+      margin-bottom: 2rem;
+  }
 
     h1 { 
       font-size: 3rem;

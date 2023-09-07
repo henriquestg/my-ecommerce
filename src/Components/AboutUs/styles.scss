@@ -4,6 +4,10 @@
 
   gap: 5rem;
 
+  @media (max-width: 850px) {
+    flex-direction: column;
+}
+
 
   .info-store {
     flex-direction: column;
@@ -34,11 +38,25 @@
     flex-direction: column;
     gap: 4rem;
 
+    @media (max-width: 850px) {
+      gap: 0rem;
+  }
+
+
     .description-product {
       display: flex;
+
+      @media (max-width: 850px) {
+        flex-direction: column;
+    }
     }
 
     .list-aboutus {
+
+      @media (max-width: 850px) {
+        margin-bottom: 2rem;
+    }
+  
 
       h1 {
         font-size: 3rem;
