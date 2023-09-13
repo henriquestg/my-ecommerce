@@ -11,6 +11,7 @@ export function HeaderShowcase() {
         <div className="title">
           <h2>Transform Your Home with Our Stunning Furniture Collection</h2>
         </div>
+
         <div className="description">
           <p>
             Welcome to our furniture store, where we believe that a

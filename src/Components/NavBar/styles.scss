@@ -33,6 +33,7 @@
   justify-content: flex-end;
 
 
+
   input {
     display: flex;
     width: 7rem;
@@ -43,6 +44,26 @@
 
     margin-left: 2rem;
     margin-right: 2rem;
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+
+    gap: 2rem;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  a:hover::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: var(--black);
+    display: block;
   }
 }
 

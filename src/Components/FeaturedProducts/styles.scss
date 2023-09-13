@@ -36,4 +36,21 @@
     justify-content: space-between;
     
   }
-}
+
+  @media (max-width: 745px) {
+        gap: 0.5rem;
+        
+        Button {
+          display: none;
+        }
+
+        .product-list {
+          display: flex;
+          width: 100%;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: center;
+          
+        }
+      }
+  }

@@ -1,4 +1,3 @@
-import { Input } from "../Input";
 import "./styles.scss";
 import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 
@@ -22,11 +21,11 @@ export function Contact() {
       </div>
       <div className="mensage">
         <p>Name</p>
-        <Input />
+        <input type="text" />
         <p>Email</p>
-        <Input />
+        <input type="text" />
         <p>Message</p>
-        <Input text="Type your message..." />
+        <input type="message" placeholder="type your message" />
       </div>
     </div>
   );

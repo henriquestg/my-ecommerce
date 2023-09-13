@@ -13,10 +13,20 @@ export function NavBar() {
       <div className="navbar-container">
         <Image src={Logo} alt="logo" width={160} height={40} />
         <div className="navbar">
-          <ButtonHeader text="Home" />
-          <ButtonHeader text="Products" />
-          <ButtonHeader text="About Us" />
-          <ButtonHeader text="Contact" />
+          <ul>
+            <li>
+              <a href="">Home</a>
+            </li>
+            <li>
+              <a href="">Products</a>
+            </li>
+            <li>
+              <a href="">About Us</a>
+            </li>
+            <li>
+              <a href="">Contact</a>
+            </li>
+          </ul>
           <input placeholder="Search" />
           <div className="marketplace">
             <button>

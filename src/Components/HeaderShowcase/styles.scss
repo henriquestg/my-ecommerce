@@ -1,7 +1,9 @@
 .container-showcase {
   display: flex;
-  padding: 0rem 4rem;
   flex-direction: column;
+  padding: 0rem 4rem;
+  margin-top: 5rem;
+
 
   .container-header{
     display: flex;
@@ -42,5 +44,22 @@
     gap: 1rem;
   }
 
+  @media (max-width: 768px) {
+    .container-header{
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      }
+
+    .description {
+      display: flex;
+      flex-direction: column;
+      margin-top: -1.5rem;
+      gap: 3rem;
+    }
+}
 }
 
