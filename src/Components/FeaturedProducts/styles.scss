@@ -53,4 +53,12 @@
           
         }
       }
+
+      @media (max-width: 500px) {
+ 
+        padding: 2rem 1.5rem;
+        .container-list {
+          width: 100%;
+        }
+      }
   }

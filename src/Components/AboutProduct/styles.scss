@@ -35,10 +35,6 @@
     justify-content: flex-start;
     width: 100%;
 
-    @media (max-width: 850px) {
-      margin-bottom: 2rem;
-  }
-
     h1 { 
       font-size: 3rem;
       font-style: normal;
@@ -60,6 +56,8 @@
     height: 60%;
   }
 
+ // media queries
+
 
   @media (max-width: 850px) {
     padding: 5rem 4rem;
@@ -72,5 +70,13 @@
       width: 100%;
       height: 100%;
     }
+}
+
+@media (max-width: 500px) {
+ 
+  padding: 2rem 1.5rem;
+  .container-list {
+    width: 100%;
+  }
 }
 }
