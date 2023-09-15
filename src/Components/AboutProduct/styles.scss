@@ -54,4 +54,23 @@
     }
   }
   }
+
+  #abajur-img {
+    width: 50%;
+    height: 60%;
+  }
+
+
+  @media (max-width: 850px) {
+    padding: 5rem 4rem;
+
+    .item {
+      margin-bottom: 2rem;
+    }
+
+    #abajur-img {
+      width: 100%;
+      height: 100%;
+    }
+}
 }

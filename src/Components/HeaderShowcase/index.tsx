@@ -27,7 +27,7 @@ export function HeaderShowcase() {
         </div>
       </div>
       <div className="imagem-description">
-        <Image src={Sofa} alt="logo" />
+        <Image id="sofa-img" src={Sofa} alt="logo" />
       </div>
     </div>
   );

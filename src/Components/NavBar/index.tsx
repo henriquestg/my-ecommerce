@@ -15,16 +15,16 @@ export function NavBar() {
         <div className="navbar">
           <ul>
             <li>
-              <a href="">Home</a>
+              <a href="#">Home</a>
             </li>
             <li>
-              <a href="">Products</a>
+              <a href="#">Products</a>
             </li>
             <li>
-              <a href="">About Us</a>
+              <a href="#">About Us</a>
             </li>
             <li>
-              <a href="">Contact</a>
+              <a href="#">Contact</a>
             </li>
           </ul>
           <input placeholder="Search" />

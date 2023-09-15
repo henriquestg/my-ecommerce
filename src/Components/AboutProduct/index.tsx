@@ -36,7 +36,7 @@ export function AboutProduct() {
           </div>
         </div>
       </div>
-      <Image src={Abajur} alt="Abajur" width={620} height={640} />
+      <Image id="abajur-img" src={Abajur} alt="Abajur" />
     </div>
   );
 }
