@@ -17,8 +17,7 @@ export function HeaderShowcase() {
             Welcome to our furniture store, where we believe that a
             well-furnished home is a happy home. We offer a wide selection of
             high-quality furniture for every room in your home, from cozy sofas
-            and elegant dining sets to stylish office desks and comfortable
-            beds.
+            and elegant dining sets to stylish office desks and comfortable beds
           </p>
           <div className="btn">
             <Button text="Shop Now" isBlack={true} />
