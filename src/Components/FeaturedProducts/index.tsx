@@ -9,7 +9,7 @@ interface FeaturedProps {
 
 export function FeaturedProducts({ title, text }: FeaturedProps) {
   return (
-    <div className="container-featured">
+    <div id="products" className="container-featured">
       <h1>{title}</h1>
       <div className="title-featured">
         <p>{text}</p>

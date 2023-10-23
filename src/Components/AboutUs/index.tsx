@@ -4,7 +4,7 @@ import "./styles.scss";
 
 export function AboutUs() {
   return (
-    <div className="container-aboutus">
+    <section id="about" className="container-aboutus">
       <div className="info-store">
         <h1>Why Choose Us</h1>
         <p>
@@ -63,6 +63,6 @@ export function AboutUs() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

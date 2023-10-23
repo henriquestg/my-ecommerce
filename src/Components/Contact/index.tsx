@@ -3,7 +3,7 @@ import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 
 export function Contact() {
   return (
-    <div className="container-contact">
+    <div id="contact" className="container-contact">
       <div className="contact">
         <h1>Contact us</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
